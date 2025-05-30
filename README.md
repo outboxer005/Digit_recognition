@@ -2,7 +2,7 @@
 
 This is a full-stack application for recognizing handwritten digits using a deep learning model. The backend is built with **FastAPI** and Python, while the frontend is developed with **ReactJS**. The application serves a model that predicts digits from images and presents the interface for user interaction.
 
-##Expected Deliverables: - - - - - 
+## Expected Deliverables:
 
 -React frontend with drawing canvas and prediction display 
 
