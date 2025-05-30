@@ -87,14 +87,20 @@ To configure SQL database support for the backend, modify the appropriate resour
 Make sure to:
 
 - Set the database URL
+
 - Run migrations if applicable
+
 - Install any SQL database drivers needed
 
 ## 🚀 Features
 - Deep learning model for digit recognition
+  
 - FastAPI-based REST API
+
 - ReactJS frontend for image input and results
+
 - Live predictions with smooth UI
+
 - Modular backend with scalability in mind
 
 ---
@@ -108,6 +114,14 @@ Make sure to:
 - NumPy, OpenCV, TensorFlow/Keras (depending on model)
 
 ---
+# Final Outputs :
+![image](https://github.com/user-attachments/assets/d7c52269-2374-4e4e-8077-1e93ea05cb03)
+![image](https://github.com/user-attachments/assets/46fb5041-d911-4cf0-849c-6e279615eb70)
+![image](https://github.com/user-attachments/assets/1f7b0df8-69b3-44ae-a7b2-488db5468e12)
+![image](https://github.com/user-attachments/assets/01a1747d-dabb-4078-be7a-6de63c10d43d)
+
+
+
 
 ## 📜 License
 
