@@ -111,5 +111,6 @@ Make sure to:
 
 ## 📜 License
 
-This project is open source and can be used by anyone for study and reasearch purposes
+This project is open source and can be used by anyone for study and reasearch purposes. 
+
 training model is acquired formt he mnist model
