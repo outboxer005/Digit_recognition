@@ -4,13 +4,13 @@ This is a full-stack application for recognizing handwritten digits using a deep
 
 ## Expected Deliverables:
 
-    -React frontend with drawing canvas and prediction display 
+- React frontend with drawing canvas and prediction display 
 
-    -Spring Boot backend with REST endpoints 
+- Spring Boot backend with REST endpoints 
 
-    -CNN-based digit recognition model served via FastAPI 
+- CNN-based digit recognition model served via FastAPI 
 
-    -MySQL for storing predictions, JWT for authentication 
+- MySQL for storing predictions, JWT for authentication 
 
 
 ## 🧠 Backend - Model API (Python 3.9.13)
