@@ -92,6 +92,7 @@ Make sure to:
 
 - Install any SQL database drivers needed
 
+
 ## 🚀 Features
 - Deep learning model for digit recognition
   
@@ -103,6 +104,7 @@ Make sure to:
 
 - Modular backend with scalability in mind
 
+
 ---
 
 ## 🧪 Tech Stack
@@ -112,6 +114,7 @@ Make sure to:
 - ReactJS
 - Uvicorn
 - NumPy, OpenCV, TensorFlow/Keras (depending on model)
+
 
 ---
 
@@ -127,9 +130,8 @@ Make sure to:
 
 - Example Predictions:
 
-- ![image](https://github.com/user-attachments/assets/1f7b0df8-69b3-44ae-a7b2-488db5468e12)
-
-- ![image](https://github.com/user-attachments/assets/01a1747d-dabb-4078-be7a-6de63c10d43d)
+![image](https://github.com/user-attachments/assets/1f7b0df8-69b3-44ae-a7b2-488db5468e12)
+![image](https://github.com/user-attachments/assets/01a1747d-dabb-4078-be7a-6de63c10d43d)
 
 - Profile Page:
 
