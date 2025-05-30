@@ -23,6 +23,7 @@ Make sure you have **Python 3.9.13** installed.
     ```
 
 3. Start the FastAPI backend server:
+create a new terimnal for the main project folder and use
 
     ```bash
     uvicorn model_api.App:app --reload
@@ -77,8 +78,8 @@ Make sure to:
 - Set the database URL
 - Run migrations if applicable
 - Install any SQL database drivers needed
-## 🚀 Features
 
+## 🚀 Features
 - Deep learning model for digit recognition
 - FastAPI-based REST API
 - ReactJS frontend for image input and results
@@ -99,4 +100,5 @@ Make sure to:
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is open source and can be used by anyone for study and reasearch purposes
+training model is acquired formt he mnist model
