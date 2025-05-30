@@ -114,20 +114,29 @@ Make sure to:
 - NumPy, OpenCV, TensorFlow/Keras (depending on model)
 
 ---
+
 # Final Outputs :
 
-- Main Page :  
+- Main Page:
+  
 ![image](https://github.com/user-attachments/assets/d7c52269-2374-4e4e-8077-1e93ea05cb03)
 
-- Prediction page :
+- Prediction page:
+
 ![image](https://github.com/user-attachments/assets/46fb5041-d911-4cf0-849c-6e279615eb70)
 
 - Example Predictions:
-![image](https://github.com/user-attachments/assets/1f7b0df8-69b3-44ae-a7b2-488db5468e12)
-![image](https://github.com/user-attachments/assets/01a1747d-dabb-4078-be7a-6de63c10d43d)
+
+- ![image](https://github.com/user-attachments/assets/1f7b0df8-69b3-44ae-a7b2-488db5468e12)
+
+- ![image](https://github.com/user-attachments/assets/01a1747d-dabb-4078-be7a-6de63c10d43d)
+
+- Profile Page:
+
 ![image](https://github.com/user-attachments/assets/ea5426bf-c455-4806-bc12-7485cbd4560f)
 
-- Login Page :
+- Login Page:
+
 ![image](https://github.com/user-attachments/assets/7df7aa3c-53b5-4bef-bf39-15aa34ae247b)
 
 
