@@ -27,6 +27,7 @@ Make sure you have **Python 3.9.13** installed.
 3. Start the FastAPI backend server:
 
     ```bash
+    open a new terminal and run in main project folder
     uvicorn model_api.App:app --reload
     ```
 
