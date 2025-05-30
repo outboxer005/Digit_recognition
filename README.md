@@ -1,74 +1,102 @@
-✍️ Handwritten Digit Recognition
-A full-stack AI web app that recognizes handwritten digits with a deep learning model trained on the MNIST dataset.
+# Handwritten Digit Recognition
 
-Backend: FastAPI (Python 3.9.13)
+This is a full-stack application for recognizing handwritten digits using a deep learning model. The backend is built with **FastAPI** and Python, while the frontend is developed with **ReactJS**. The application serves a model that predicts digits from images and presents the interface for user interaction.
 
-Frontend: ReactJS
+## 🧠 Backend - Model API (Python 3.9.13)
 
-Model: TensorFlow/Keras on MNIST
+### Requirements
 
-🚀 Quick Start
-bash
-Copy
-Edit
-# Backend
-cd model_api
-pip install -r requirements.txt
-uvicorn App:app --reload
+Make sure you have **Python 3.9.13** installed.
 
-# Frontend
-cd frontend
-npm install
-npm start
-Backend: http://127.0.0.1:8000
+### Installation
 
-Swagger UI: http://127.0.0.1:8000/docs
+1. Navigate to the `model_api` directory:
 
-Frontend: http://localhost:3000
+    ```bash
+    cd model_api
+    ```
 
-🗂️ Repository Structure
-├── model_api/                  # FastAPI backend
-│   ├── App.py                  # Entry point
-│   ├── requirements.txt        # Python deps (FastAPI, TensorFlow, numpy, opencv, etc.)
-│   ├── models/                 # Trained MNIST model files
-│   └── application/            # Resource & config modules
-│       └── resource.py         # DB & other configs
-│
-├── frontend/                   # ReactJS client
-│   ├── public/
-│   ├── src/
-│   │   ├── components/         # UI components
-│   │   ├── App.jsx             # Main app
-│   │   └── index.js
-│   ├── package.json
-│   └── ...                     
-│
-├── .gitignore
-├── README.md                   # This file
-└── LICENSE                     # Open source license
-🛠️ Technologies
-Backend:
+2. Install the required dependencies:
 
-FastAPI, Uvicorn
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-TensorFlow/Keras (MNIST)
+3. Start the FastAPI backend server:
 
-NumPy, OpenCV
+    ```bash
+    uvicorn model_api.App:app --reload
+    ```
 
-Frontend:
+The backend will now be live on:  
+📍 `http://127.0.0.1:8000`
 
-ReactJS, HTML5 Canvas for drawing
+You can access the interactive Swagger API docs at:  
+🧪 `http://127.0.0.1:8000/docs`
 
-Fetch API for requests
+---
 
-🔍 Features
-Draw digits in-browser (canvas)
+## 🌐 Frontend - ReactJS
 
-Real-time prediction via REST API
+### Requirements
 
-Interactive Swagger docs
+- Node.js
+- npm (Node Package Manager)
 
-Modular, easily extendable architecture
+### Installation & Running
 
-📜 License
-This project is free to use and research. No license restrictions.
+1. Navigate to the `frontend` directory:
+
+    ```bash
+    cd frontend
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+The frontend will be running at:  
+🌍 `http://localhost:3000`
+
+---
+
+## 🛠️ Database Configuration (Optional)
+
+To configure SQL database support for the backend, modify the appropriate resource files in your FastAPI backend (typically found in `application.resource` or a similarly named config module).
+
+Make sure to:
+
+- Set the database URL
+- Run migrations if applicable
+- Install any SQL database drivers needed
+## 🚀 Features
+
+- Deep learning model for digit recognition
+- FastAPI-based REST API
+- ReactJS frontend for image input and results
+- Live predictions with smooth UI
+- Modular backend with scalability in mind
+
+---
+
+## 🧪 Tech Stack
+
+- Python 3.9.13
+- FastAPI
+- ReactJS
+- Uvicorn
+- NumPy, OpenCV, TensorFlow/Keras (depending on model)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
